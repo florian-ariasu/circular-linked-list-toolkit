@@ -4,7 +4,7 @@
 > [!NOTE] 
 > This is the first homework of data structures and algorithms from UNSTPB ACS faculty, CS field, 1st year.
 
-#### Structs
+#### Main structs
 ```c
 typedef struct TrCell2 {
     char data;
