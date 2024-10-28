@@ -19,73 +19,38 @@ typedef struct Train {
 ```
 #### The operations implemented are
 - move left/right
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - insert left/right
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - search left/right
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - clear_cell
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - clear_all
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - switch
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
 - show
-<details>
-<summary>def</summary>
 
 ```console
 It moves the mechanic, which represents the current cell, to one of its adjacent positions.
 ```
-
-</details>
-<br>
   
