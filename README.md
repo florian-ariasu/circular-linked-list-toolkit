@@ -56,7 +56,7 @@ It clears all the cells and it restores the train to its initial state.
 It reverts the content of the queue up to that point.
 ```
 > [!NOTE]
-> All commands besides SHOW SHOW_CURRENT and SWITCH are put into a pq.
+> All commands besides SHOW, SHOW_CURRENT and SWITCH are put into a pq.
 - show
 
 ```console
@@ -70,5 +70,5 @@ It shows the content of the mechanic's cell.
 - write
 
 ```console
-It overwrites the mechanic's cell content aka the current cell or cell under the cursor.
+It overwrites the mechanic's cell content aka the current cell or the cell under the cursor.
 ```
