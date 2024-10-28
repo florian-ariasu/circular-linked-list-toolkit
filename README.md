@@ -48,11 +48,18 @@ It clears all the cells and it restores the train to its initial state.
 - switch
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+It reverts the content of the queue up to that point.
 ```
+> [!NOTE]
+> All commands besides SHOW and SHOW_CURRENT are put into a pq.
 - show
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+It shows the content of the entire list with mechanic's character between pipes.
+```
+- show_current
+
+```console
+It shows the content of the mechanic's cell.
 ```
   
