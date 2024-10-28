@@ -33,12 +33,12 @@ It inserts a new cell adjacent to the current mechanic position and it moves the
 - search left/right
 
 ```console
-It searches for a certain character from the current position until reaching the sentinel.
+It searches for a certain character from the current position until it reaches the sentinel.
 ```
 - search
 
 ```console
-It searches circularly for a certain character from the current position to the right until reaching its left neighbour. 
+It searches circularly for a certain character from the current position to the right until it resches its left neighbour from the start. 
 ```
 - clear_cell
 
