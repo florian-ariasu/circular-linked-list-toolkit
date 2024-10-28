@@ -26,7 +26,7 @@ It moves the mechanic, which represents the current cell, to one of its adjacent
 - insert left/right
 
 ```console
-It inserts a new cell adjacent to the current mechanic position and it moves the mechanic accordingly.
+It inserts a new cell adjacent to the current mechanic's position and it moves the mechanic accordingly.
 ```
 > [!NOTE]
 > If the mechanic is in the first car, it will be displayed an error message
