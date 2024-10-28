@@ -1,4 +1,4 @@
-# This project's aim is to implement a doubly circular linked list with a sentinel along with some basic operations
+## This project's aim is to implement a doubly circular linked list with a sentinel along with some basic operations
 <br>
 
 > [!NOTE] 
