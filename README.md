@@ -67,4 +67,8 @@ It shows the content of the entire list with mechanic's character between pipes.
 ```console
 It shows the content of the mechanic's cell.
 ```
-  
+- write
+
+```console
+It overwrites the mechanic's cell content aka the current cell or cell under the cursor.
+```
