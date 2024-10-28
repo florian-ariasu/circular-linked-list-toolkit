@@ -1,3 +1,91 @@
-# Linked List 
-Implementation of a doubly circular linked list
-with some simple operations like search left/right, switch, move left/right, insert left/right, clear_cell, clear_all and show
+# This project's aim is to implement a doubly circular linked list with a sentinel along with some basic operations
+<br>
+
+> [!NOTE] 
+> This is the first homework of data structures and algorithms from UNSTPB ACS faculty, CS field, 1st year.
+
+#### Structs
+```c
+typedef struct TrCell2 {
+    char data;
+    struct TrCell2 *next;
+    struct TrCell2 *prev;
+} TRCell2, *TRL2;
+
+typedef struct Train {
+    TRL2 head;
+    TRL2 mechanic;
+} *TTrain;
+```
+#### The operations implemented are
+- move left/right
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- insert left/right
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- search left/right
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- clear_cell
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- clear_all
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- switch
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+- show
+<details>
+<summary>def</summary>
+
+```console
+It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+```
+
+</details>
+<br>
+  
