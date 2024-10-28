@@ -56,7 +56,7 @@ It clears all the cells and it restores the train to its initial state.
 It reverts the content of the queue up to that point.
 ```
 > [!NOTE]
-> All commands besides SHOW and SHOW_CURRENT are put into a pq.
+> All commands besides SHOW SHOW_CURRENT and SWITCH are put into a pq.
 - show
 
 ```console
