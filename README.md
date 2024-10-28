@@ -33,17 +33,17 @@ It inserts a new cell adjacent to the current mechanic position and it moves the
 - search left/right
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+It searches for a certain character.
 ```
 - clear_cell
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+It clears the contents of the cell and it removes it completely.
 ```
 - clear_all
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+It clears all the cells and it restores the train to its initial state.
 ```
 - switch
 
