@@ -1,74 +1,74 @@
-This project focuses on developing a doubly circular linked list with a sentinel node, including fundamental operations for managing and manipulating the list efficiently.
-<br>
+# 🚂 Train Data Structure Implementation
+> A sophisticated implementation of a doubly circular linked list with sentinel node, designed for efficient data manipulation and management.
 
-> [!NOTE] 
-> This is the first homework of data structures and algorithms from UNSTPB ACS faculty, CS field, 1st year.
+[![Academic Project](https://img.shields.io/badge/Academic-Project-blue.svg)](https://github.com)
+[![Institution](https://img.shields.io/badge/UNSTPB-ACS-orange.svg)](https://github.com)
+[![Year](https://img.shields.io/badge/Year-1-green.svg)](https://github.com)
 
-#### Main structs
+## 🎯 Project Overview
+This implementation represents a train system using a doubly circular linked list with a sentinel node. Each cell in the structure represents a train car, with a mechanic pointer indicating the current position for operations.
+
+## 🏗️ Core Data Structures
+
 ```c
 typedef struct TrCell2 {
-    char data;
-    struct TrCell2 *next;
-    struct TrCell2 *prev;
+    char data;              // Content of the train car
+    struct TrCell2 *next;   // Pointer to next car
+    struct TrCell2 *prev;   // Pointer to previous car
 } TRCell2, *TRL2;
 
 typedef struct Train {
-    TRL2 head;
-    TRL2 mechanic;
+    TRL2 head;             // Sentinel node
+    TRL2 mechanic;         // Current position pointer
 } *TTrain;
 ```
-#### The operations implemented are
-- move left/right
+
+## 🛠️ Implemented Operations
+
+### Navigation Operations
+| Operation | Description |
+|-----------|-------------|
+| `MOVE_LEFT/RIGHT` | Moves the mechanic cursor to adjacent positions |
+| `SEARCH_LEFT/RIGHT` | Searches for a character from current position to sentinel |
+| `SEARCH` | Performs circular search from current position |
+
+### Modification Operations
+| Operation | Description |
+|-----------|-------------|
+| `INSERT_LEFT/RIGHT` | Adds new cell adjacent to mechanic position |
+| `WRITE` | Overwrites current cell content |
+| `CLEAR_CELL` | Removes current cell |
+| `CLEAR_ALL` | Resets structure to initial state |
+| `SWITCH` | Reverses queue content up to current position |
+
+### Display Operations
+| Operation | Description |
+|-----------|-------------|
+| `SHOW` | Displays entire list (mechanic position marked with \|character\|) |
+| `SHOW_CURRENT` | Displays mechanic's cell content |
+
+## ⚠️ Important Notes
+
+1. Insert operations will display an error if mechanic is in first car
+2. All commands except `SHOW`, `SHOW_CURRENT`, and `SWITCH` are processed through a priority queue
+3. The mechanic position always indicates the active cell for operations
+
+## 🔍 Implementation Details
+
+Each operation is carefully implemented to maintain list integrity while providing efficient data manipulation:
+
+- **Circular Nature**: The list maintains its circular property through all operations
+- **Sentinel Node**: Provides simplified edge case handling
+- **Bidirectional Links**: Enable efficient traversal in both directions
+- **Priority Queue**: Ensures ordered command execution
+
+## 💡 Usage Example
 
 ```console
-It moves the mechanic, which represents the current cell, to one of its adjacent positions.
+// Example structure visualization
+[S]-[A]-[B]-[|C|]-[D]-[E]
+// Where S is sentinel node and |C| is mechanic position
 ```
-- insert left/right
 
-```console
-It inserts a new cell adjacent to the current mechanic's position and it moves the mechanic accordingly.
-```
-> [!NOTE]
-> If the mechanic is in the first car, it will be displayed an error message
-- search left/right
-
-```console
-It searches for a certain character from the current position until it reaches the sentinel.
-```
-- search
-
-```console
-It searches circularly for a certain character from the current position to the right until it resches its left neighbour from the start. 
-```
-- clear_cell
-
-```console
-It clears the contents of the cell and it removes it completely.
-```
-- clear_all
-
-```console
-It clears all the cells and it restores the train to its initial state.
-```
-- switch
-
-```console
-It reverts the content of the queue up to that point.
-```
-> [!NOTE]
-> All commands besides SHOW, SHOW_CURRENT and SWITCH are put into a pq.
-- show
-
-```console
-It shows the content of the entire list with mechanic's character between pipes.
-```
-- show_current
-
-```console
-It shows the content of the mechanic's cell.
-```
-- write
-
-```console
-It overwrites the mechanic's cell content aka the current cell or the cell under the cursor.
-```
+---
+*This project is part of the Data Structures and Algorithms curriculum at UNSTPB ACS Faculty, Computer Science Department.*
