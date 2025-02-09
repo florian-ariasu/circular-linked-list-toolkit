@@ -1,4 +1,4 @@
-## This project aims at implementing a doubly circular linked list with a sentinel along with some basic operations
+This project focuses on developing a doubly circular linked list with a sentinel node, including fundamental operations for managing and manipulating the list efficiently.
 <br>
 
 > [!NOTE] 
