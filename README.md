@@ -1,10 +1,10 @@
-# 🚂 Train Data Structure Implementation
+## 🚂 Train Data Structure Implementation
 > A sophisticated implementation of a doubly circular linked list with sentinel node, designed for efficient data manipulation and management.
 
-## 🎯 Project Overview
+### 🎯 Project Overview
 This implementation represents a train system using a doubly circular linked list with a sentinel node. Each cell in the structure represents a train car, with a mechanic pointer indicating the current position for operations.
 
-## 🏗️ Core Data Structures
+### 🏗️ Core Data Structures
 
 ```c
 typedef struct TrCell2 {
@@ -19,16 +19,16 @@ typedef struct Train {
 } *TTrain;
 ```
 
-## 🛠️ Implemented Operations
+### 🛠️ Implemented Operations
 
-### Navigation Operations
+#### Navigation Operations
 | Operation | Description |
 |-----------|-------------|
 | `MOVE_LEFT/RIGHT` | Moves the mechanic cursor to adjacent positions |
 | `SEARCH_LEFT/RIGHT` | Searches for a character from current position to sentinel |
 | `SEARCH` | Performs circular search from current position |
 
-### Modification Operations
+#### Modification Operations
 | Operation | Description |
 |-----------|-------------|
 | `INSERT_LEFT/RIGHT` | Adds new cell adjacent to mechanic position |
@@ -37,19 +37,19 @@ typedef struct Train {
 | `CLEAR_ALL` | Resets structure to initial state |
 | `SWITCH` | Reverses queue content up to current position |
 
-### Display Operations
+#### Display Operations
 | Operation | Description |
 |-----------|-------------|
 | `SHOW` | Displays entire list (mechanic position marked with \|character\|) |
 | `SHOW_CURRENT` | Displays mechanic's cell content |
 
-## ⚠️ Important Notes
+### ⚠️ Important Notes
 
 1. Insert operations will display an error if mechanic is in first car
 2. All commands except `SHOW`, `SHOW_CURRENT`, and `SWITCH` are processed through a priority queue
 3. The mechanic position always indicates the active cell for operations
 
-## 🔍 Implementation Details
+### 🔍 Implementation Details
 
 Each operation is carefully implemented to maintain list integrity while providing efficient data manipulation:
 
@@ -58,7 +58,7 @@ Each operation is carefully implemented to maintain list integrity while providi
 - **Bidirectional Links**: Enable efficient traversal in both directions
 - **Priority Queue**: Ensures ordered command execution
 
-## 💡 Usage Example
+### 💡 Usage Example
 
 ```console
 // Example structure visualization
