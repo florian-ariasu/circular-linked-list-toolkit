@@ -69,6 +69,3 @@ Each operation is carefully implemented to maintain list integrity while providi
 [S]-[A]-[B]-[|C|]-[D]-[E]
 // Where S is sentinel node and |C| is mechanic position
 ```
-
----
-*This project is part of the Data Structures and Algorithms curriculum at UNSTPB ACS Faculty, Computer Science Department.*
