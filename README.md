@@ -1,10 +1,6 @@
 # 🚂 Train Data Structure Implementation
 > A sophisticated implementation of a doubly circular linked list with sentinel node, designed for efficient data manipulation and management.
 
-[![Academic Project](https://img.shields.io/badge/Academic-Project-blue.svg)](https://github.com)
-[![Institution](https://img.shields.io/badge/UNSTPB-ACS-orange.svg)](https://github.com)
-[![Year](https://img.shields.io/badge/Year-1-green.svg)](https://github.com)
-
 ## 🎯 Project Overview
 This implementation represents a train system using a doubly circular linked list with a sentinel node. Each cell in the structure represents a train car, with a mechanic pointer indicating the current position for operations.
 
