@@ -65,3 +65,6 @@ Each operation is carefully implemented to maintain list integrity while providi
 [S]-[A]-[B]-[|C|]-[D]-[E]
 // Where S is sentinel node and |C| is mechanic position
 ```
+
+### 📜 Licence
+This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
