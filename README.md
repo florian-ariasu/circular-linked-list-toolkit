@@ -1,4 +1,4 @@
-## 🚂 Train Data Structure Implementation
+## Train Data Structure Implementation
 > A sophisticated implementation of a doubly circular linked list with sentinel node, designed for efficient data manipulation and management.
 
 ### 🎯 Project Overview
