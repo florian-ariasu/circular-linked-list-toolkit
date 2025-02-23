@@ -1,10 +1,10 @@
 ## Train Data Structure Implementation
 > A sophisticated implementation of a doubly circular linked list with sentinel node, designed for efficient data manipulation and management.
 
-### 🎯 Project Overview
+### Project Overview
 This implementation represents a train system using a doubly circular linked list with a sentinel node. Each cell in the structure represents a train car, with a mechanic pointer indicating the current position for operations.
 
-### 🏗️ Core Data Structures
+### Core Data Structures
 
 ```c
 typedef struct TrCell2 {
@@ -19,7 +19,7 @@ typedef struct Train {
 } *TTrain;
 ```
 
-### 🛠️ Implemented Operations
+### Implemented Operations
 
 #### Navigation Operations
 | Operation | Description |
@@ -43,13 +43,13 @@ typedef struct Train {
 | `SHOW` | Displays entire list (mechanic position marked with \|character\|) |
 | `SHOW_CURRENT` | Displays mechanic's cell content |
 
-### ⚠️ Important Notes
+### Important Notes
 
 1. Insert operations will display an error if mechanic is in first car
 2. All commands except `SHOW`, `SHOW_CURRENT`, and `SWITCH` are processed through a priority queue
 3. The mechanic position always indicates the active cell for operations
 
-### 🔍 Implementation Details
+### Implementation Details
 
 Each operation is carefully implemented to maintain list integrity while providing efficient data manipulation:
 
@@ -58,7 +58,7 @@ Each operation is carefully implemented to maintain list integrity while providi
 - **Bidirectional Links**: Enable efficient traversal in both directions
 - **Priority Queue**: Ensures ordered command execution
 
-### 💡 Usage Example
+### Usage Example
 
 ```console
 // Example structure visualization
@@ -66,5 +66,5 @@ Each operation is carefully implemented to maintain list integrity while providi
 // Where S is sentinel node and |C| is mechanic position
 ```
 
-### 📜 Licence
+### Licence
 This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
